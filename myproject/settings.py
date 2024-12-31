@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["myproject-tdxj.onrender.com"]
 
+CSRF_TRUSTED_ORIGINS = ["https://myproject-tdxj.onrender.com"]
+
 
 # Application definition
 
