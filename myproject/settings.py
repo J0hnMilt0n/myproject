@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-j3)vtf!%f)brusn!k1bhc5wanjz#l!wf^+6(excp*qnagp)tco
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://myproject-tdxj.onrender.com"]
+ALLOWED_HOSTS = ["myproject-tdxj.onrender.com"]
 
 
 # Application definition
