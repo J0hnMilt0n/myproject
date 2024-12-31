@@ -15,12 +15,15 @@
     {% comment %}This is a comment{% endcomment %}
     {% empty %}
     <p>No students found.</p>
+    {% endempty %}
+    {% endfor %}
+    {% if students %}
+{% endfor %}
 {% if students %}
     <p>We have {{ students|length }} students.</p>
 {% else %}
     <p>future developers not listening classes</p>
 {% endif %}
-{% endfor %}
 {% filter upper %}
 {{students.0.name|cut:""}}
 {% endfilter %}
